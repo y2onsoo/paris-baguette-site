@@ -21,4 +21,9 @@ function getDirection() {
   return direction;
 }
 
-//
+$(".gnb li").mouseenter(function(){
+  $("ul.sub, .nav-bg").show();
+});
+$(".nav-bg").mouseleave(function(){
+  $("ul.sub,.nav-bg").hide();
+});
