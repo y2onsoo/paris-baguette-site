@@ -183,6 +183,7 @@ header .ham-bar a i.close{
   background-image: linear-gradient(to top, #3464ce, #759ffa);
   color: #fff;
   letter-spacing: 2px;
+  cursor: pointer;
 }
 /**********************link-text********************/
 .link-text{
@@ -296,7 +297,7 @@ header .ham-bar a i.close{
   position: relative;
 }
 .section-4 h2{
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   font-weight: 600;
   letter-spacing: 2px;
@@ -309,19 +310,61 @@ header .ham-bar a i.close{
   width: 80%;
   height: 800px;
   margin-top: 30px;
-  background-color: #333;
+  /* background-color: #333; */
 }
 .contents-wrap .contents-img{
   display: flex;
-  height: 300px;
   width: 100%;
-  background-color: yellow;
+  /* background-color: yellow; */
   justify-content: center;
 }
+
+.contents-wrap .contents-img .contents-img-1,
+.contents-wrap .contents-img .contents-img-2{
+  height: 300px;
+  margin: 0 50px;
+  position: relative;
+}
+
 .contents-wrap .contents-img img{
   border-radius: 30px;
   margin-right: 50px;
+  height: 250px;
+  margin-top: 20px;
 }
+.contents-wrap .contents-img p{
+  position: absolute;
+  top: 30%;
+  left: 11%;
+  transform: translate(-30%,-10%);
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.contents-wrap .contents-img .p-2{
+  position: absolute;
+  top: 50%;
+  left:8% ;
+  transform: translateX(-8%);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.contents-wrap .contents-img .p-3{
+  position: absolute;
+  top: 60%;
+  left:10% ;
+  transform: translateX(-10%);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.contents-wrap .contents-img .p-3 span{
+  color: crimson;
+  font-size: 14px;
+}
+
 .section-4 .section4-text-wrap{
   height: 500px;
   background-color: pink;
